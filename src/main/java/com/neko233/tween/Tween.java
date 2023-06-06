@@ -8,7 +8,7 @@ import java.util.List;
  * Date on 2023-01-02
  */
 public class Tween {
-    private static List<TweenAction> tweenActionList = new ArrayList<>();
+    private static final List<TweenAction> tweenActionList = new ArrayList<>();
 
     public static void update(float deltaTimeSecond) {
         List<TweenAction> actionsToRemove = new ArrayList<>();
